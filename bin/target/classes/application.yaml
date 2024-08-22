@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    # database: POSTGRESQL
+    show-sql: true
+    # hibernate:
+    #   ddl-auto: create-drop
+  datasource:
+    # platform: postgres
+    url: jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=javaapis
+    username: sa
+    password: s3cr3t
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
